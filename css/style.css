@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:darkslategrey;
+    
+    
+    min-height: 100vh;  
+}
+
+
+header {
+    min-height: 6rem;
+    background-image: rgb(145, 207, 248);
+}
+.container-header{
+    display:flex;
+    flex-direction: row;
+    border-color:1px solid white;
+    padding: 20px;
+    width:862px;
+    margin-left:33%;  
+    margin-top:20px;
+    margin-bottom:20px;
+    align-items: center;
+}
+.container{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+header li{
+    display: inline-block;
+    margin: 0, 15px; 
+    top: 10px; 
+    background:#663366; 
+    text-align: center;
+    padding: 0;
+}
+header a {
+    text-decoration: none;
+    color:aquamarine;
+    width: 100px;
+    display:block;
+    padding: 15px;
+    font-size:17px;
+    font-family: Helvetica;
+    transition: 0 .4s;
+    display:flex-end; 
+}
+.card {
+    display: inline-block;
+    /*background: rgb(250, 194, 109);*/
+    padding: 5px 10px;
+    margin: 10px auto;
+    /*border-bottom: 1px ridge;*/
+    gap: 5rem;
+    /*resize: vertical;*/
+    justify-content: space-between;
+    width: 210px;
+  }
+  .container_button{
+    position:absolute;
+    bottom: 30px;
+    color: aliceblue;
+    left: 710px;
+  }
+  h1{
+      color: aliceblue;
+  }
+  h2 {
+    text-align: center;
+     color: aliceblue;
+    padding-bottom: 30px;
+    padding-top: 40px;
+     font-size: 34px;
+  }
+  .subscribe-bottom {
+    position:absolute;
+    bottom: 0px;
+    color: rgb(248, 238, 238);
+    right: 0px;;  
+  }
+  h3 {
+      color: aliceblue;
+  }
+  h4{
+      margin-left: 2em;    
+  }
+  p{
+      color: white;
+      line-height: 15px;  
+      margin: 10px 0;
+      text-align: justify;
+      text-justify: inter-word;
+      font-size: 16px;
+      height: fit-content;
+      text-indent:2em;  
+      text-align:justify;
+      bottom: 12px;
+      
+      
+      bottom: 30px;
+  }
+  #email{
+    position:absolute;
+    bottom: 180px;
+  }
+  #subscribe-btn {
+    position:absolute;
+    bottom: 200px;
+    margin-left: 170px;
+    bottom: 0px;
+  }
+  img {
+    max-height: 50px;
+    max-width: 100px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;    
+  }
+
+  #gallery-paragraph-1{
+    padding-left:15px;
+    /* Added */
+    word-wrap: break-word;
+  }
+  #gallery-paragraph-2{
+    padding-left:15px;
+  }
+
+#gallery-text-left{
+  float:left;
+  width:50%
+  }
+  #gallery-text-right{
+    float:right;
+    width: 50%;
+  }
+  span::first-letter {
+    font-size: 200%;
+    color: #eb632d;
+  }
+  span {
+    display: inline-block;
+  }
+
+  
